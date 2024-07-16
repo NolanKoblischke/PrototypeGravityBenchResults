@@ -29,3 +29,4 @@ Open the `HTML` files for an interactive view of the results from each baseline 
 | GPT-4o | Full table | 49% |
 | Claude 3.5 Sonnet | Full table | 33% |
 | GPT-4o | Row-wise | 21% |
+| Claude 3.5 Sonnet | Row-wise | 24% |
