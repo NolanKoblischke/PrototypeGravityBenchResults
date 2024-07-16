@@ -2,12 +2,12 @@
 
 ### Overview
 
-Gravity Bench v1 is a benchmark designed to evaluate the capability of AI models to uncover hidden physics through simulated astrophysical environments. This benchmark specifically focuses on binary star systems, providing a series of physics-related questions that require complex reasoning and scientific understanding.
+Gravity Bench v1 is a benchmark designed to evaluate the capability of AI models to uncover hidden physics through simulated physics environments. This benchmark specifically focuses on binary star systems, providing a series of physics-related tasks in partially-observable environments that require exploration, complex reasoning and scientific understanding.
 
 ### Benchmark Structure
 
-- Kinematic `rebound` simulations of the binary star systems
-- Questions that require a physical understanding of the simulation and smart observations. For example:
+- Dynamic rebound (machine-precision) simulation of the binary star systems
+- Questions that require a physical understanding of the simulation and smart observational scheduling. For example:
   - What is the total mass and period of the system?
   - Is the system bounded or unbounded?
   - Is Kepler’s third law satisfied?
@@ -22,7 +22,7 @@ Gravity Bench v1 is a benchmark designed to evaluate the capability of AI models
     - (Results not yet available)
 
 ### Results
-Open the `HTML` files for an interactive view of the results from each baseline agent.
+Download and open the `HTML` files for an interactive view of the **agent traces** from each baseline agent.
 
 | Model | Version | Percent Correct |
 | --- | --- | --- |
@@ -31,5 +31,5 @@ Open the `HTML` files for an interactive view of the results from each baseline 
 | GPT-4o | Row-wise | 21% |
 | Claude 3.5 Sonnet | Row-wise | 24% |
 
-Here is a visualization of an example simulation the agent must observe:
+Here is a visualization of an example simulation the agent must observe and reason about:
 ![Example](example_binary.gif)
